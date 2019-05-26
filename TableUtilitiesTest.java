@@ -10,7 +10,7 @@ public class TableUtilitiesTest {
    
     @Test
     public void testGetMulplicationTable_forOne(){
-        String expected = "  1 |\n";
+        String expected = " 1 | \n"  ;
 
         String actual = TableUtilities.getMultiplicationTable(1);
         Assert.assertEquals(expected, actual);
